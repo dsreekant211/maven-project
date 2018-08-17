@@ -3,5 +3,4 @@ os: linux
 files:
   - source: /target/webapp
     destination: /opt/apache-tomcat-8.5.32/webapps
-  - source: /scripts/configure_http_port.xsl
-    destination: /tmp/codedeploy-deployment-staging-area/
+ 
