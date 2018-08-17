@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/webapp
+  - source: /target/webapp.war
     destination: /opt/apache-tomcat-8.5.32/webapps
  
