@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: webapp/target/webapp.war
+  - source: sreekanthreddy/target/messageUtil-1.0.jar
     destination: /opt/apache-tomcat/webapps
  
