@@ -9,4 +9,9 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
+  artifacts:
+  files:
+    - target/webapp.war
+    - appspec.yml
+  discard-paths: yes
 
